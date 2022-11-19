@@ -1,7 +1,7 @@
 
 ---
 - name: Web Server
-  hosts: n1
+  hosts: all
   become: yes
   tasks:
        - name: Install Of HTTPD  
