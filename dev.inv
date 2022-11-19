@@ -1,4 +1,4 @@
-[build]
+[ build ]
 172.31.43.254 ansible_user=centos
 172.31.8.17 ansible_user=centos
 
