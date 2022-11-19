@@ -7,7 +7,7 @@
        - name: Install Of HTTPD  
          yum: 
           name: httpd
-          state: present
+          state: absent
 
        - name: Ensure HTTPD Service Started 
          service: 
