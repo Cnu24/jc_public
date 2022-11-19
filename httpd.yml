@@ -1,7 +1,7 @@
 
 ---
 - name: ansible
-  hosts: web
+  hosts: build
   become: yes
   tasks:
        - name: Install Of HTTPD  
